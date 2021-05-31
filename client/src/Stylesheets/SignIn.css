@@ -1,0 +1,10 @@
+.SignIn{
+    display: grid;
+    height: 60%;
+    grid-template-rows:15% 25% 25% 15% 20%;
+}
+.SignIn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

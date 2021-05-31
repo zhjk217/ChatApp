@@ -1,0 +1,39 @@
+.message {
+    display: flex;
+}
+
+.message p {
+    max-width: 500px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 0px 5px;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.sent {
+    flex-direction: row-reverse;
+}
+
+.sent p {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.received p {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* color: black; */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 4px 7px;
+}
